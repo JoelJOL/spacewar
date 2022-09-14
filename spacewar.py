@@ -1,27 +1,5 @@
 import pygame
-import random
-import math
-from pygame import mixer
-
-pygame.init()
-screen=pygame.display.set_mode((800,600))
-
-#background=pygame.image.load("spaceship.png")
-mixer.music.load("background.mp3")
-mixer.music.play(-1)
-pygame.display.set_caption("space hustle")
-icon=pygame.image.load("gun.png")
-pygame.display.set_icon(icon)
-
-#LOADING PLYER
-playerImg=pygame.image.load("spaceship.png")
-playerX=370
-playerY=480
-playerX_change=0
-
-
-enemyImg=[]
-enemyX=[]
+import ran
 enemyY=[]
 enemyX_change=[]
 enemyY_change=[]
